@@ -13,7 +13,7 @@ from flask_cors import CORS
 
 matplotlib.use('Agg')
 
-model = joblib.load("planet_habitability_pipeline2.joblib")
+model = joblib.load("planet_habitability_pipeline.joblib")
 
 app = Flask(__name__)
 CORS(app)
