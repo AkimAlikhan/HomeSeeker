@@ -177,7 +177,7 @@ Navigate to: `http://localhost:5000` or open `index.html`
 
 - **Issues**: [GitHub Issues](https://github.com/AkimAlikhan/HomeSeeker/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/AkimAlikhan/HomeSeeker/discussions)
-- **Email**: your-email@example.com
+- **Email**: togay.alimzhan@gmail.com.com
 
 ---
 
