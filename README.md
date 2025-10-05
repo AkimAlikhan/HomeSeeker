@@ -2,33 +2,33 @@
 
 An advanced exoplanet analysis platform that combines machine learning, AI vision, and lightcurve analysis to discover and characterize potentially habitable worlds beyond our solar system.
 
-## 🚀 Features
+## Features
 
-### 🔬 **Lightcurve Analysis**
+### **Lightcurve Analysis**
 - **Transit Detection**: Analyze Kepler and TESS mission data
 - **Periodogram Analysis**: Detect orbital periods from lightcurves
 - **Parameter Extraction**: Derive planetary characteristics from transit data
 - **AI-Powered Visualization**: GPT-4 Vision explains complex plots
 
-### 🤖 **Machine Learning Habitability Prediction**
+### **Machine Learning Habitability Prediction**
 - **XGBoost Classifier**: Predicts planet habitability potential
 - **Trained on Real Data**: Uses confirmed exoplanet datasets
 - **High Accuracy**: 95%+ prediction accuracy
 - **Real-time Analysis**: Instant habitability assessment
 
-### 💬 **AI Assistant**
+### **AI Assistant**
 - **Context-Aware Chat**: Understands your analysis context
 - **Expert Explanations**: Get answers to astronomy questions
 - **Voice Input**: Speech recognition support
 - **Educational Focus**: Beginner-friendly explanations
 
-### 📊 **Visual Analytics**
+### **Visual Analytics**
 - **Interactive Plots**: Raw, flattened, and folded lightcurves
 - **Periodogram Visualization**: Power spectrum analysis
 - **Parameter Dashboard**: Comprehensive planetary data
 - **AI Plot Analysis**: Automated plot interpretation
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### **Backend**
 - **Python Flask**: RESTful API server
@@ -58,7 +58,7 @@ An advanced exoplanet analysis platform that combines machine learning, AI visio
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/homeseeker.git
+git clone https://github.com/AkimAlikhan/HomeSeeker.git
 cd homeseeker
 ```
 
@@ -83,7 +83,7 @@ echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
 python "machine learning.py"
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### **Start the Python Backend**
 ```bash
@@ -100,7 +100,7 @@ Server runs on: `http://localhost:3000`
 ### **Open the Web Interface**
 Navigate to: `http://localhost:5000` or open `index.html`
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### **1. Habitability Prediction**
 - Enter planetary parameters in the form
@@ -120,7 +120,7 @@ Navigate to: `http://localhost:5000` or open `index.html`
 - Use voice input for hands-free interaction
 - Receive educational content
 
-## 🔬 Scientific Methods
+## Scientific Methods
 
 ### **Transit Photometry**
 - **Transit Depth**: `δ = (F_baseline - F_min) / F_baseline`
@@ -137,7 +137,7 @@ Navigate to: `http://localhost:5000` or open `index.html`
 - **Feature Engineering**: Planetary and stellar parameters
 - **Cross-validation**: Ensures model reliability
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### **Python Backend** (`http://localhost:5000`)
 - `POST /predict` - Habitability prediction
@@ -150,14 +150,14 @@ Navigate to: `http://localhost:5000` or open `index.html`
 - `POST /analyze_images` - Vision analysis
 - `GET /health` - Health check
 
-## 🎯 Supported Data Sources
+## Supported Data Sources
 
 - **Kepler Mission**: KIC targets
 - **TESS Mission**: TIC targets
 - **Exoplanet Archive**: NASA's confirmed planets
 - **Lightkurve**: NASA's official lightcurve library
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -165,26 +165,19 @@ Navigate to: `http://localhost:5000` or open `index.html`
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **NASA**: For Kepler and TESS mission data
 - **Lightkurve Team**: For the excellent lightcurve analysis library
 - **OpenAI**: For GPT-4 Vision capabilities
 - **Exoplanet Archive**: For confirmed exoplanet data
 
-## 📞 Support
+## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/homeseeker/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/homeseeker/discussions)
+- **Issues**: [GitHub Issues](https://github.com/AkimAlikhan/HomeSeeker/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AkimAlikhan/HomeSeeker/discussions)
 - **Email**: your-email@example.com
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/homeseeker&type=Date)](https://star-history.com/#yourusername/homeseeker&Date)
 
 ---
 
